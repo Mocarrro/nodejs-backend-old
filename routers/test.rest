@@ -1,0 +1,11 @@
+
+GET http://localhost:3000/notes
+###
+
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+    "noteText": "Mikolaj2",
+    "noteDelay": 2
+}
